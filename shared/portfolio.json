@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Louie",
+    "handle": "x1louie",
+    "role": "Full-Stack Web Developer",
+    "location": "Philippines",
+    "photo": "/images/profile.png",
+    "tagline": "I build fast, good-looking web apps, from the database to the last pixel.",
+    "about": "I'm a full-stack developer who likes turning ideas into real products people can use. I've shipped a nationwide vehicle-rental platform and a game discovery app, and I care about clean UI, solid backends, and smooth user experience.",
+    "available": true,
+    "cv": null
+  },
+  "journey": [],
+  "skills": [
+    { "group": "Frontend", "items": ["React", "Next.js", "JavaScript", "HTML & CSS", "Tailwind CSS", "Responsive Design"] },
+    { "group": "Backend", "items": ["Node.js", "Express.js", "REST APIs", "Authentication", "Databases"] },
+    { "group": "Tools", "items": ["Git & GitHub", "VS Code", "Deployment", "Figma"] }
+  ],
+  "projects": [
+    {
+      "id": "jlr-fleetlink",
+      "title": "JLR Fleetlink",
+      "status": "Live",
+      "summary": "A vehicle rental marketplace across the Philippines (Luzon, Visayas & Mindanao). Owners list cars, vans, trucks and motorcycles, and verified renters book them.",
+      "highlights": ["Location & category search", "Owner listings and renter accounts", "Light / dark mode", "Fully responsive"],
+      "tags": ["Full-Stack", "Marketplace", "Responsive"],
+      "image": "/images/jlr-fleetlink.png",
+      "url": "https://www.jlrfleetlink.shop/"
+    },
+    {
+      "id": "game-discover",
+      "title": "GameVault",
+      "status": "Live",
+      "summary": "A game library app with personalized recommendations. It suggests games based on the genres you play and rate highly, and shows what each game is about and where to get it.",
+      "highlights": ["Genre-based recommendations", "Free-to-play / paid badges", "Details & store links", "Add to library"],
+      "tags": ["React", "Recommendations", "UI/UX"],
+      "image": "/images/game-discover.png",
+      "url": "https://gamevault2-app.vercel.app/"
+    }
+  ],
+  "contacts": [
+    { "id": "facebook", "label": "Facebook", "value": "Message me on Facebook", "url": "https://www.facebook.com/profile.php?id=61595598742575" },
+    { "id": "instagram", "label": "Instagram", "value": "@x1louie", "url": "https://www.instagram.com/x1louie/" },
+    { "id": "gmail", "label": "Gmail", "value": "louigepogoy93@gmail.com", "url": "https://mail.google.com/mail/?view=cm&fs=1&to=louigepogoy93@gmail.com" },
+    { "id": "website", "label": "Website", "value": "jlrfleetlink.shop", "url": "https://www.jlrfleetlink.shop/" },
+    { "id": "github", "label": "GitHub", "value": "@Louigepogoy", "url": "https://github.com/Louigepogoy" },
+    { "id": "discord", "label": "Discord", "value": "", "url": null }
+  ]
+}

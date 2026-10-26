@@ -1,0 +1,20 @@
+# Render blueprint for the Express API. In Render: New > Blueprint > pick this repo.
+services:
+  - type: web
+    name: louie-portfolio-api
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: FRONTEND_ORIGIN
+        sync: false # your Vercel URL, e.g. https://louie-portfolio.vercel.app
+      - key: ADMIN_TOKEN
+        generateValue: true
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_APP_PASSWORD
+        sync: false
+      - key: NOTIFY_TO
+        value: louigepogoy93@gmail.com

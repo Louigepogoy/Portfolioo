@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env
+.env.local
+backend/data/messages.json
+*.log
+.vercel/
+next-env.d.ts
